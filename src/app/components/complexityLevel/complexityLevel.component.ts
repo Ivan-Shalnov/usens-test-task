@@ -1,5 +1,5 @@
 import { Component, Input, SimpleChanges } from '@angular/core';
-import { PASSWORD_STRENGTH } from 'src/app/data/consts';
+import { PASSWORD_STRENGTH } from 'src/app/consts';
 @Component({
   selector: '[data-complexityLevel]',
   templateUrl: './complexityLevel.component.html',

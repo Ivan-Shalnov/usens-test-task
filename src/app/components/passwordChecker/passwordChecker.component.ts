@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { PASSWORD_STRENGTH } from 'src/app/data/consts';
+import { PASSWORD_STRENGTH } from 'src/app/consts';
 
 @Component({
-  selector: 'passwordChecker',
+  selector: '[data-passwordChecker]',
   templateUrl: './passwordChecker.component.html',
   styleUrls: ['./passwordChecker.component.scss'],
 })
