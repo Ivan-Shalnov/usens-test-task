@@ -1,6 +1,7 @@
 {
   "name": "usense-test-task",
   "version": "0.0.0",
+  "homepage": "https://ivan-shalnov.github.io/usens-test-task/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
