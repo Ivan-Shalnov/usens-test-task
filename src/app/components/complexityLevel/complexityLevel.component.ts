@@ -12,7 +12,7 @@ export class ComplexityLevel {
     second: 'bg-grey',
     third: 'bg-grey',
   };
-  ngOnChanges(changes: SimpleChanges) {
+  ngOnChanges(changes: SimpleChanges): void {
     const currentLevel: string = changes['level'].currentValue;
     switch (currentLevel) {
       case PASSWORD_STRENGTH.EMPTY:

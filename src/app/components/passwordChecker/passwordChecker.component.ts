@@ -23,13 +23,13 @@ export class PasswordCheckerComponent {
     this.message = 'Type something';
     this.passwordStrength = PASSWORD_STRENGTH.EMPTY;
   }
-  showPassword() {
+  showPassword(): void {
     this.inputType = 'text';
   }
-  hidePassword() {
+  hidePassword(): void {
     this.inputType = 'password';
   }
-  onValueChange(value: string) {
+  onValueChange(value: string): void {
     this.password = value;
     const currentStrength = this.determineStrength(this.password);
     switch (currentStrength) {
